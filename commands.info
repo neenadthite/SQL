@@ -1,0 +1,5 @@
+#Create table with columns and predefined data type
+CREATE TABLE IF NOT EXISTS tablename (column1 TEXT, column2 INT)
+
+#Insert values in the added column
+INSERT INTO tablename (column1, column2) VALUES('rowone', 2);
