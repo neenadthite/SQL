@@ -13,3 +13,12 @@ ex. ALTER TABLE Activity ADD Category varchar(20);
 #Insert Values
 INSERT INTO tablename (column1, column2) VALUES(value1, value2);
 ex. INSERT INTO Activity(Task, Start_Date, End_Date, Status, Category) VALUES('Audit', '21-Nov-23', '21-Nov-23', 'Completed', 'Office');
+
+#Update a column value in table
+UPDATE Table_Name SET Column_Name = New_Value WHERE Condition; 
+ex. UPDATE Activity SET Remark = 'Add ticket in PMS' WHERE Task = 'Audit';
+
+#Show values from a table
+SELECT column FROM tablename;
+ex. SELECT * FROM Activity;
+Audit	21-Nov-23	21-Nov-23	Completed	Office	Add ticket in PMS
