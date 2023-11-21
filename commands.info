@@ -1,5 +1,15 @@
+#Create database
+CREATE DATABASE databasename;
+ex. CREATE DATABASE TASKDATABASE;
+
 #Create table with columns and predefined data type
 CREATE TABLE IF NOT EXISTS tablename (column1 TEXT, column2 INT)
+ex. CREATE TABLE IF NOT EXISTS Activity(Task varchar(20),Start_Date varchar(20),End_Date varchar(20),Status varchar(20));
 
-#Insert values in the added column
-INSERT INTO tablename (column1, column2) VALUES('rowone', 2);
+#Add column
+ALTER TABLE table_name ADD column_name datatype;
+ex. ALTER TABLE Activity ADD Category varchar(20);
+
+#Insert Values
+INSERT INTO tablename (column1, column2) VALUES(value1, value2);
+ex. INSERT INTO Activity(Task, Start_Date, End_Date, Status, Category) VALUES('Audit', '21-Nov-23', '21-Nov-23', 'Completed', 'Office');
