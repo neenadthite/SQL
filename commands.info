@@ -22,3 +22,11 @@ ex. UPDATE Activity SET Remark = 'Add ticket in PMS' WHERE Task = 'Audit';
 SELECT column FROM tablename;
 ex. SELECT * FROM Activity;
 Audit	21-Nov-23	21-Nov-23	Completed	Office	Add ticket in PMS
+
+#Rename Column
+ALTER TABLE column_name RENAME old_name TO new_name;
+ex. ALTER TABLE Activity RENAME Start_Date TO StartDate;
+
+#Rename Table
+ALTER TABLE tablename RENAME TO new_name;
+ALTER TABLE OFFICE_TASK RENAME TO OfficeName;
