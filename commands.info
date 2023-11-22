@@ -30,4 +30,8 @@ ex. ALTER TABLE Activity RENAME Start_Date TO StartDate;
 
 #Rename Table
 ALTER TABLE tablename RENAME TO new_name;
-ALTER TABLE OFFICE_TASK RENAME TO OfficeName;
+ex. ALTER TABLE OFFICE_TASK RENAME TO OfficeName;
+
+#Delete record
+DELETE FROM tablename WHERE condition;
+ex. DELETE FROM Activity WHERE Task = 'Audit';
