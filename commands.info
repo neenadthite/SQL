@@ -17,6 +17,7 @@ ex. INSERT INTO Activity(Task, Start_Date, End_Date, Status, Category) VALUES('A
 #Update a column value in table
 UPDATE Table_Name SET Column_Name = New_Value WHERE Condition; 
 ex. UPDATE Activity SET Remark = 'Add ticket in PMS' WHERE Task = 'Audit';
+ex. UPDATE Activity SET StartDate= '22-Nov-23', EndDate = '22-Nov-23' WHERE Task = 'TATA PLAY Recharge';
 
 #Show values from a table
 SELECT column FROM tablename;
