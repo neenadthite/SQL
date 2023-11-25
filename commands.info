@@ -35,3 +35,11 @@ ex. ALTER TABLE OFFICE_TASK RENAME TO OfficeName;
 #Delete record
 DELETE FROM tablename WHERE condition;
 ex. DELETE FROM Activity WHERE Task = 'Audit';
+
+#Delte Table
+DROP TABLE tablename;
+ex. DROP TABLE Expense;
+
+#Delete all records in Table
+TRUNCATE TABLE tablename;
+ex. TRUNCATE TABLE Expense;
